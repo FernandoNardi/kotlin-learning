@@ -1,7 +1,10 @@
 package moreFunctions
 
-fun main(args: Array<String>) {
+fun many(vararg strs: String) {
+    strs.iterator().forEach { println(it) }
+}
 
+fun main(args: Array<String>) {
     println("capitalize")
     println("kotlin".capitalize())
 
@@ -17,4 +20,8 @@ fun main(args: Array<String>) {
     println("kotlin".endsWith("n"))
     println("KotliN".endsWith("n"))
     println("Kotlin".endsWith("n", true))
+
+    println("\niterator")
+    many()
+    many("a", "e", "i", "o", "u")
 }
