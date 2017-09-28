@@ -1,6 +1,6 @@
 package nullSafe
 
-fun main(args: Array<String>) {
+fun main(t: Array<String>) {
 
     println("example one")
     val str: String? = null

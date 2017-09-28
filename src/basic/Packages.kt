@@ -4,7 +4,6 @@ import java.util.*
 
 fun main(args: Array<String>) {
 
-
     val calendar: Calendar = Calendar.getInstance()
 
     println("year: ${calendar.get(Calendar.YEAR)}")
