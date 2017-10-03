@@ -1,6 +1,6 @@
 package objectorientation
 
-class Car(private var model: String, private var power: Float = 1.0f, private var maxSpeed: Int) {
+class Car(private var model: String, private var power: Int = 1.0f, private var maxSpeed: Int) {
 
     private var currentSpeed = 0
 

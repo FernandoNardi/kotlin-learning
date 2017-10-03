@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba603fe4-f10b-4086-ad38-d1a7f2b59753" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/objectorientation/InterfaceClass.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" afterPath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/objectorientation/Visibility.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/objectorientation/Car.kt" afterPath="$PROJECT_DIR$/src/objectorientation/Car.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractClass.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objectorientation/AbstractClass.kt">
+      <file leaf-file-name="Visibility.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/objectorientation/Visibility.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterfaceClass.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/objectorientation/InterfaceClass.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="441">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/objectorientation/Inheritage3.kt" />
         <option value="$PROJECT_DIR$/src/objectorientation/AbstractClass.kt" />
         <option value="$PROJECT_DIR$/src/objectorientation/InterfaceClass.kt" />
+        <option value="$PROJECT_DIR$/src/objectorientation/Visibility.kt" />
       </list>
     </option>
   </component>
@@ -501,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506979912973</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Kotlin's Testing, Interface. Udemy course">
+      <created>1506980484960</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1506980484960</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -592,7 +590,8 @@
     <MESSAGE value="Kotlin's Testing, Heritage. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Override e Overload. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Abstract Class. Udemy course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing, Abstract Class. Udemy course" />
+    <MESSAGE value="Kotlin's Testing, Interface. Udemy course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing, Interface. Udemy course" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -717,6 +716,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!block;n#reverseUsingLoop#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,6 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,6 +912,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/objectorientation/InterfaceClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/objectorientation/AbstractClass.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -917,10 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objectorientation/InterfaceClass.kt">
+    <entry file="file://$PROJECT_DIR$/src/objectorientation/Visibility.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="441">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
