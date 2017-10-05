@@ -39,3 +39,12 @@ fun countConsonants2(phrase: String): Int {
     }
     return count
 }
+
+fun countVowelsFilter(phrase: String): Int {
+    val vowels: Array<Char> = arrayOf('a', 'e', 'i', 'o', 'u')
+    var count = 0
+    phrase.filter { it.toLowerCase() in vowels }.forEach { count++ }
+    return count
+}
+
+fun countVowelsFilterRes(phrase: String) = phrase.filter { it.toLowerCase() in "aeiou" }.length
