@@ -13,9 +13,7 @@ data class Ingredients(val name: String, val quantity: Int)
 /**
  * Check for ingredients
  * */
-fun hasIngredient(list: List<Ingredients>, name: String): Boolean {
-    return list.filter { it.name == name }.any()
-}
+fun hasIngredient(list: List<Ingredients>, name: String) = list.filter { it.name == name }.any()
 
 fun main(args: Array<String>) {
 
@@ -67,5 +65,24 @@ fun main(args: Array<String>) {
     for (x in firstTwo.withIndex()) {
         println("${x.index + 1} - ${x.value.name}")
     }
+
+
+    // I know how to make pancakes? And sushi?
+    val knowPancake = data.filter { it.name == "Pancake" }.any()
+    println("I know how to pancake? ${if (knowPancake) "yes" else "no"}")
+
+    val knowSushi = data.filter { it.name == "Sushi" }.any()
+    println("I know how to sushi? ${if (knowSushi) "yes" else "no"}")
+
+    // What are foods with more than 500 calories?
+    data.filter { it.calories > 500 }.forEach { println(it.name) }
+
+    // Par (key, value) of foods with more than 500 calories (name, calories)
+    data.filter { it.calories > 500 }
+            .map { Pair(it.name, it.calories) }
+            .forEach { println("${it.first}: ${it.second} calories") }
+
+    // Which of the recipes do you have flour as an ingredient?
+    data.filter { hasIngredient(it.ingredients, "Flour") }.forEach { println(it.name) }
 
 }
