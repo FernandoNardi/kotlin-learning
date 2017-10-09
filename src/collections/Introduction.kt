@@ -7,6 +7,11 @@ fun main(args: Array<String>) {
     val l1 = listOf("Madrid", "São Paulo", "Chicago") // immutable
     val l2 = mutableListOf("Madrid", "São Paulo", "Chicago") // mutable
 
+    l1.size
+    l1.any()
+    l1.isNotEmpty()
+    l1.withIndex()
+
     val a1 = arrayListOf("Madrid", "São Paulo", "Chicago") // return array list java
 
     val s1 = setOf("Madrid", "São Paulo", "Chicago", "Chicago") // does not repeat element in array | immutable
