@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba603fe4-f10b-4086-ad38-d1a7f2b59753" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/moreClasses/field.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/moreClasses/lateinit.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" afterPath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="field.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="field.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/moreClasses/field.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lateinit.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/moreClasses/lateinit.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -106,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/exercises/VowelConsonant.kt" />
         <option value="$PROJECT_DIR$/src/collections/Introduction.kt" />
         <option value="$PROJECT_DIR$/src/moreClasses/field.kt" />
+        <option value="$PROJECT_DIR$/src/moreClasses/lateinit.kt" />
       </list>
     </option>
   </component>
@@ -147,6 +158,12 @@
               <item name="kotlin-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="moreClasses" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -609,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507592861692</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Kotlin's Testing. More class - field. Udemy course">
+      <created>1508877946481</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1508877946481</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,7 +680,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284091" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -708,7 +732,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin's Testing, Conversion of values. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Exceptions. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Exercise - Count vowels and consonants. Udemy course" />
     <MESSAGE value="Kotlin's Testing, null safe. Udemy course" />
@@ -733,7 +756,8 @@
     <MESSAGE value="Kotlin's Testing, Using collections II. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Counter vowels. Udemy course" />
     <MESSAGE value="Kotlin's Testing. Udemy course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing. Udemy course" />
+    <MESSAGE value="Kotlin's Testing. More class - field. Udemy course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing. More class - field. Udemy course" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,13 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/Flow.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/StringFormat.java" />
     <entry file="file://$PROJECT_DIR$/src/basic/Variables.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1089,6 +1106,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/moreClasses/lateinit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
