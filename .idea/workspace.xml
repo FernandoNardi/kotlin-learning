@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba603fe4-f10b-4086-ad38-d1a7f2b59753" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/moreClasses/Nested.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/moreClasses/field.kt" afterPath="$PROJECT_DIR$/src/moreClasses/Field.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/moreClasses/lateinit.kt" afterPath="$PROJECT_DIR$/src/moreClasses/Lateinit.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/moreClasses/Sealed.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" afterPath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Nested.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/moreClasses/Nested.kt">
+      <file leaf-file-name="Sealed.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/moreClasses/Sealed.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -109,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/moreClasses/field.kt" />
         <option value="$PROJECT_DIR$/src/moreClasses/lateinit.kt" />
         <option value="$PROJECT_DIR$/src/moreClasses/Nested.kt" />
+        <option value="$PROJECT_DIR$/src/moreClasses/Sealed.kt" />
       </list>
     </option>
   </component>
@@ -199,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.moreClasses.NestedKt">
+  <component name="RunManager" selected="Kotlin.moreClasses.SealedKt">
     <configuration name="VowelConsonantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -214,31 +214,6 @@
       <option name="MAIN_CLASS_NAME" value="exercises.VowelConsonantTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="VowelConsonantTest.countVowelsFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="kotlin-learning" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.VowelConsonantTest" />
-      <option name="METHOD_NAME" value="countVowelsFilter" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -380,20 +355,32 @@
       <module name="kotlin-learning" />
       <envs />
     </configuration>
+    <configuration name="moreClasses.SealedKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="moreClasses.SealedKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="kotlin-learning" />
+      <envs />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest.countVowelsFilter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest.countVowelsFilterRes" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.moreClasses.FieldKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.moreClasses.NestedKt" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest.countVowelsFilterRes" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.moreClasses.FieldKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.moreClasses.NestedKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.moreClasses.SealedKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.moreClasses.NestedKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.moreClasses.FieldKt" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest.countVowelsFilterRes" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest.countVowelsFilter" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.moreClasses.SealedKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.moreClasses.NestedKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.moreClasses.FieldKt" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VowelConsonantTest.countVowelsFilterRes" />
       </list>
     </recent_temporary>
   </component>
@@ -632,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508881673764</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Kotlin's Testing. More class - nested class (inner class). Udemy course">
+      <created>1508881992922</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1508881992922</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -731,7 +725,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin's Testing, Exercise - Count vowels and consonants. Udemy course" />
     <MESSAGE value="Kotlin's Testing, null safe. Udemy course" />
     <MESSAGE value="Kotlin's Testing, extension function and more parameters. Udemy course" />
     <MESSAGE value="Kotlin's Testing, extension number. Udemy course" />
@@ -756,7 +749,8 @@
     <MESSAGE value="Kotlin's Testing. Udemy course" />
     <MESSAGE value="Kotlin's Testing. More class - field. Udemy course" />
     <MESSAGE value="Kotlin's Testing. More class - lateinit. Udemy course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing. More class - lateinit. Udemy course" />
+    <MESSAGE value="Kotlin's Testing. More class - nested class (inner class). Udemy course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing. More class - nested class (inner class). Udemy course" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -777,13 +771,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/Variables.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlin-learning.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1118,8 +1105,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/moreClasses/Nested.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/moreClasses/Sealed.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
