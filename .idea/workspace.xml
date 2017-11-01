@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba603fe4-f10b-4086-ad38-d1a7f2b59753" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/deeper/AnonymousFunction.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" afterPath="$PROJECT_DIR$/out/production/kotlin-learning/META-INF/kotlin-learning.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -147,17 +147,6 @@
             <path>
               <item name="kotlin-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="deeper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -644,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509500650455</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Kotlin's Testing. More functions - Anonymous function. Udemy course">
+      <created>1509501895531</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1509501895531</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -681,7 +677,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -696,7 +691,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2744361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2744361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -743,7 +738,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin's Testing, class. Udemy course" />
     <MESSAGE value="Kotlin's Testing, data class. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Private &amp; Secondary Builder&#10;. Udemy course" />
     <MESSAGE value="Kotlin's Testing, Heritage. Udemy course" />
@@ -768,7 +762,8 @@
     <MESSAGE value="Kotlin's Testing. More functions - Operator overloading. Udemy course" />
     <MESSAGE value="Kotlin's Testing. More functions - Higher order. Udemy course" />
     <MESSAGE value="Kotlin's Testing. More functions - Lambda. Udemy course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing. More functions - Lambda. Udemy course" />
+    <MESSAGE value="Kotlin's Testing. More functions - Anonymous function. Udemy course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin's Testing. More functions - Anonymous function. Udemy course" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
